@@ -4,7 +4,7 @@ import openpyxl
 import io
 
 st.set_page_config(page_title="Control de Ingresos BCP", page_icon="🏦")
-st.title("🏦 Control de Ingresos Bancarios BCP")
+st.title("Control de Ingresos Bancarios BCP")
 st.markdown("Carga tu archivo maestro y los reportes diarios o históricos para actualizar la base automáticamente.")
 
 def limpiar_op_para_clave(val):
